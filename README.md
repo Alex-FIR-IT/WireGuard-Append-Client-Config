@@ -10,8 +10,12 @@ It merely describes the way my script works
 
 To ensure that the script "append_client.sh" is workable on you machine you need:
 
-1) Locate your base WireGuard folder into the following directory - "/etc/wireguard".
-2) Ensure that the following files and directories in "/etc/wireguard" exist:
+1) Install qrencode. Do to that you need to put and execute the following command:
+```bash
+sudo apt install
+``` 
+2) Locate your base WireGuard folder into the following directory - "/etc/wireguard".
+3) Ensure that the following files and directories in "/etc/wireguard" exist:
 * append_client.sh - bash script from this repository
 * wg0.conf - your main WireGuard config
 * backups - just a directory. Script will save your wg0.conf into this one every time you run script
