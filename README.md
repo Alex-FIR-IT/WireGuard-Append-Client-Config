@@ -10,7 +10,7 @@ It merely describes the way my script works
 
 To ensure that the script "append_client.sh" is workable on you machine you need:
 
-1) Install qrencode. Do to that you need to put and execute the following command:
+1) Install qrencode. To do that you need to put and execute the following command:
 ```bash
 sudo apt install qrencode
 ``` 
