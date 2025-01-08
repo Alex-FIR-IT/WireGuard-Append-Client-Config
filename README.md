@@ -12,7 +12,7 @@ To ensure that the script "append_client.sh" is workable on you machine you need
 
 1) Install qrencode. Do to that you need to put and execute the following command:
 ```bash
-sudo apt install
+sudo apt install qrencode
 ``` 
 2) Locate your base WireGuard folder into the following directory - "/etc/wireguard".
 3) Ensure that the following files and directories in "/etc/wireguard" exist:
