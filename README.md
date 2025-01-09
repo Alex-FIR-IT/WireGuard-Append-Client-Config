@@ -25,11 +25,11 @@ pvk${client_number} - client secret key,
 wg${client_number}.conf - client configuration file.
 All there files will be appended by bash script "append_client.sh"
 * .env - a file with your environmental variables. It must contain:
-1) SERVER_PRIVATE_KEY=...
-2) SERVER_PUBLIC_KEY=...
-3) SERVER_ENDPOINT=...
-4) SERVER_PORT=...
-5) SERVER_DNS=...
+1) SERVER_PRIVATE_KEY=<server's private key>
+2) SERVER_PUBLIC_KEY=<server's public key
+3) SERVER_ENDPOINT=<server's ip>
+4) SERVER_PORT=57830
+5) SERVER_DNS=8.8.8.8
 
 ### Execution of the script
 
